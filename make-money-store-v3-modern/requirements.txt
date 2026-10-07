@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+python-multipart
+razorpay
+python-dotenv
+email-validator

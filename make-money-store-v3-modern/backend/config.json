@@ -1,0 +1,224 @@
+{
+  "product": {
+    "title": "MAKE MONEY ONLINE",
+    "subtitle": "A Practical Beginner's Guide to Building Legitimate Online Income Streams",
+    "description": "A practical beginner's guide to building legitimate online income streams — from freelancing and digital products to content creation and AI services.",
+    "pdf_filename": "ebook.pdf"
+  },
+  "prices": {
+    "INR": 399,
+    "USD": 9.99,
+    "GBP": 7.99,
+    "EUR": 8.99,
+    "CAD": 12.99,
+    "AUD": 14.99,
+    "NZD": 16.99,
+    "SGD": 13.99,
+    "AED": 36,
+    "SAR": 38,
+    "JPY": 1500,
+    "CNY": 72,
+    "HKD": 78,
+    "CHF": 8.99,
+    "SEK": 109,
+    "NOK": 109,
+    "DKK": 69,
+    "MXN": 189,
+    "BRL": 49,
+    "ZAR": 189,
+    "TRY": 349,
+    "THB": 329,
+    "MYR": 39,
+    "PHP": 549
+  },
+  "currency_minor_units": {
+    "JPY": 0
+  },
+  "countries": {
+    "IN": {
+      "name": "India",
+      "currency": "INR",
+      "symbol": "₹",
+      "enabled": true
+    },
+    "US": {
+      "name": "United States",
+      "currency": "USD",
+      "symbol": "$",
+      "enabled": true
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "currency": "GBP",
+      "symbol": "£",
+      "enabled": true
+    },
+    "DE": {
+      "name": "Germany",
+      "currency": "EUR",
+      "symbol": "€",
+      "enabled": true
+    },
+    "FR": {
+      "name": "France",
+      "currency": "EUR",
+      "symbol": "€",
+      "enabled": true
+    },
+    "IT": {
+      "name": "Italy",
+      "currency": "EUR",
+      "symbol": "€",
+      "enabled": true
+    },
+    "ES": {
+      "name": "Spain",
+      "currency": "EUR",
+      "symbol": "€",
+      "enabled": true
+    },
+    "NL": {
+      "name": "Netherlands",
+      "currency": "EUR",
+      "symbol": "€",
+      "enabled": true
+    },
+    "IE": {
+      "name": "Ireland",
+      "currency": "EUR",
+      "symbol": "€",
+      "enabled": true
+    },
+    "CA": {
+      "name": "Canada",
+      "currency": "CAD",
+      "symbol": "C$",
+      "enabled": true
+    },
+    "AU": {
+      "name": "Australia",
+      "currency": "AUD",
+      "symbol": "A$",
+      "enabled": true
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "currency": "NZD",
+      "symbol": "NZ$",
+      "enabled": true
+    },
+    "SG": {
+      "name": "Singapore",
+      "currency": "SGD",
+      "symbol": "S$",
+      "enabled": true
+    },
+    "AE": {
+      "name": "United Arab Emirates",
+      "currency": "AED",
+      "symbol": "د.إ",
+      "enabled": true
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "currency": "SAR",
+      "symbol": "﷼",
+      "enabled": true
+    },
+    "JP": {
+      "name": "Japan",
+      "currency": "JPY",
+      "symbol": "¥",
+      "enabled": true
+    },
+    "CN": {
+      "name": "China",
+      "currency": "CNY",
+      "symbol": "¥",
+      "enabled": true
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "currency": "HKD",
+      "symbol": "HK$",
+      "enabled": true
+    },
+    "CH": {
+      "name": "Switzerland",
+      "currency": "CHF",
+      "symbol": "CHF ",
+      "enabled": true
+    },
+    "SE": {
+      "name": "Sweden",
+      "currency": "SEK",
+      "symbol": "kr ",
+      "enabled": true
+    },
+    "NO": {
+      "name": "Norway",
+      "currency": "NOK",
+      "symbol": "kr ",
+      "enabled": true
+    },
+    "DK": {
+      "name": "Denmark",
+      "currency": "DKK",
+      "symbol": "kr ",
+      "enabled": true
+    },
+    "MX": {
+      "name": "Mexico",
+      "currency": "MXN",
+      "symbol": "MX$",
+      "enabled": true
+    },
+    "BR": {
+      "name": "Brazil",
+      "currency": "BRL",
+      "symbol": "R$",
+      "enabled": true
+    },
+    "ZA": {
+      "name": "South Africa",
+      "currency": "ZAR",
+      "symbol": "R ",
+      "enabled": true
+    },
+    "TR": {
+      "name": "Türkiye",
+      "currency": "TRY",
+      "symbol": "₺",
+      "enabled": true
+    },
+    "TH": {
+      "name": "Thailand",
+      "currency": "THB",
+      "symbol": "฿",
+      "enabled": true
+    },
+    "MY": {
+      "name": "Malaysia",
+      "currency": "MYR",
+      "symbol": "RM ",
+      "enabled": true
+    },
+    "PH": {
+      "name": "Philippines",
+      "currency": "PHP",
+      "symbol": "₱",
+      "enabled": true
+    }
+  },
+  "landing": {
+    "badge": "DIGITAL EBOOK • INSTANT ACCESS",
+    "headline": "Build skills. Build income.",
+    "lead": "A practical beginner's guide to building legitimate online income streams — from freelancing and digital products to content creation and AI services.",
+    "cta": "Get the ebook",
+    "show_india_qr": true,
+    "qr_filename": "india-qr.png"
+  },
+  "meta": {
+    "pixel_id": ""
+  }
+}

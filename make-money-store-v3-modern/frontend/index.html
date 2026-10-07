@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070910">
+<title>MAKE MONEY ONLINE — Digital Ebook</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+<div class="grain"></div><div class="orb orb-a"></div><div class="orb orb-b"></div>
+
+<nav class="nav">
+  <a class="brand" href="#"><span class="brand-icon">M</span><span>MAKE MONEY <i>ONLINE</i></span></a>
+  <div class="nav-actions">
+    <button class="country-pill" id="countryBtn"><span id="countryFlag">🌎</span><span id="countryName">Choose country</span><b>⌄</b></button>
+  </div>
+</nav>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <div class="eyebrow"><span></span> DIGITAL EBOOK · INSTANT ACCESS</div>
+      <div class="kicker">LEARN · BUILD · EARN · GROW</div>
+      <h1>Build skills.<br><em>Build income.</em></h1>
+      <p id="lead">A practical beginner's guide to building legitimate online income streams — from freelancing and digital products to content creation and AI services.</p>
+
+      <div class="buy-card">
+        <div class="price-wrap"><small>YOUR LOCAL PRICE</small><strong id="price">—</strong><span id="currencyLabel">Select your country</span></div>
+        <button class="buy-btn" id="buy"><span>Get the ebook</span><b>↗</b></button>
+      </div>
+
+      <div class="trust">
+        <span>✓ Secure checkout</span><span>✓ Instant digital access</span><span>✓ 50-page guide</span>
+      </div>
+    </div>
+
+    <div class="visual">
+      <div class="visual-halo"></div>
+      <div class="book-shadow"></div>
+      <div class="book">
+        <div class="book-line">PRACTICAL BEGINNER'S GUIDE</div>
+        <div class="book-title">MAKE<br><span>MONEY</span><br>ONLINE</div>
+        <p>A practical guide to building legitimate online income streams.</p>
+        <div>
+          <div class="book-tags">FREELANCING · DIGITAL PRODUCTS · CONTENT · AI</div>
+          <small>LEARN • BUILD • EARN • GROW</small>
+        </div>
+      </div>
+      <div class="float float-pages"><b>50+</b><span>pages</span></div>
+      <div class="float float-paths"><b>12</b><span>practical paths</span></div>
+    </div>
+  </section>
+
+  <section class="feature-grid">
+    <article><span>01</span><h3>Start from zero</h3><p>Beginner-friendly explanations and practical next steps.</p></article>
+    <article><span>02</span><h3>Explore income paths</h3><p>Freelancing, content, digital products, tutoring, AI services and more.</p></article>
+    <article><span>03</span><h3>Read anywhere</h3><p>A digital PDF designed for phone, tablet and computer reading.</p></article>
+  </section>
+
+  <section class="inside">
+    <div>
+      <div class="eyebrow">WHAT'S INSIDE</div>
+      <h2>Practical guidance<br><em>without the fluff.</em></h2>
+      <p>Learn the basics, compare different online income models and turn useful skills into practical projects.</p>
+      <button class="ghost-btn" id="insideBuy">View your price <span>→</span></button>
+    </div>
+    <div class="topic-grid">
+      <span>Freelancing</span><span>Digital Products</span><span>Affiliate Marketing</span>
+      <span>Content Creation</span><span>YouTube</span><span>Online Tutoring</span>
+      <span>Virtual Assistance</span><span>AI Services</span><span>Personal Branding</span>
+      <span>Finding Clients</span><span>Pricing</span><span>Online Safety</span>
+    </div>
+  </section>
+
+  <section id="india" class="india hidden">
+    <div><div class="eyebrow">INDIA · UPI</div><h2>Pay your way.</h2>
+      <p>The QR is an optional display method. For automatic delivery, use the verified Razorpay checkout.</p></div>
+    <img id="qr" alt="India UPI QR">
+  </section>
+
+  <section class="mini-faq">
+    <div><span>Digital product</span><b>No physical shipping</b></div>
+    <div><span>Delivery</span><b>Secure PDF access after verification</b></div>
+    <div><span>Support</span><b>Contact link below</b></div>
+  </section>
+
+  <footer>
+    <div class="footer-brand">© 2026 MAKE MONEY ONLINE <span>•</span> Learn · Build · Earn · Grow</div>
+    <div class="footer-links">
+      <a href="contact.html">Contact</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="refund-cancellation.html">Refund &amp; Cancellation</a>
+      <a href="shipping-delivery.html">Shipping &amp; Delivery</a>
+    </div>
+  </footer>
+</main>
+
+<div class="modal hidden" id="countryModal">
+  <div class="modal-box country-box">
+    <button class="close" id="closeCountry">×</button>
+    <div class="eyebrow">CHECKOUT REGION</div>
+    <h2>Choose your country</h2>
+    <p class="muted">Your local price is shown before checkout.</p>
+    <input class="search" id="countrySearch" placeholder="Search country…" autocomplete="off">
+    <div class="country-grid" id="countries"></div>
+  </div>
+</div>
+
+<div class="modal hidden" id="checkoutModal">
+  <div class="modal-box checkout-box">
+    <button class="close" id="closeCheckout">×</button>
+    <div class="eyebrow">SECURE CHECKOUT</div>
+    <h2>Almost there.</h2>
+    <p class="muted">Enter the email where you want your secure download link sent.</p>
+    <div class="order-preview"><div><span>MAKE MONEY ONLINE</span><strong id="checkoutPrice">—</strong></div><small id="checkoutCurrency">Digital ebook · instant access after verified payment</small></div>
+    <label>Email address</label>
+    <input id="email" type="email" autocomplete="email" placeholder="you@example.com">
+    <button id="continue" class="buy-btn wide">Continue to secure payment <b>→</b></button>
+    <p class="secure-note">🔒 Your PDF is released only after payment verification.</p>
+  </div>
+</div>
+
+<div class="toast hidden" id="toast"></div>
+<script src="api-config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
